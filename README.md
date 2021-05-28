@@ -1,0 +1,1 @@
+# Almegatex-hospital-queue
