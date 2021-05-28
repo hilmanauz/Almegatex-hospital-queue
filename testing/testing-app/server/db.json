@@ -1,0 +1,54 @@
+{
+  "references": [
+    {
+      "id": 1,
+      "doctor": "Dokter Umum",
+      "initial": "DU",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "doctor": "Spesialis Mata",
+      "initial": "SM",
+      "count": 3
+    },
+    {
+      "id": 3,
+      "doctor": "Spesialis Kandungan & Anak",
+      "initial": "SKA",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "doctor": "Spesialis Kulit & Kecantikan",
+      "initial": "SKK",
+      "count": 0
+    }
+  ],
+  "customers": [
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "contact": "123",
+      "email": "asd@mail.com",
+      "bpjs": "Yes",
+      "reference": 1,
+      "isQueue": true,
+      "date": "2021-05-28T10:19:00.887Z",
+      "queue": "DU001",
+      "id": 1
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "contact": "123",
+      "email": "asd@mail.com",
+      "bpjs": "Yes",
+      "reference": 2,
+      "isQueue": true,
+      "date": "2021-05-28T11:48:27.885Z",
+      "queue": "SM003",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.tableFixHead          { overflow-y: auto; height:70vh;}
+.tableFixHead thead th { position: sticky; top: 0; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

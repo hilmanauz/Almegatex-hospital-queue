@@ -1,0 +1,37 @@
+<div class="container">
+  <h1>Customer Form</h1>
+  <div class="row">
+    <div class="form-group col-6">
+      <label for="exampleFormControlInput1">First Name</label>
+      <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Agus" [(ngModel)]="firstName">
+    </div>
+    <div class="form-group col-6">
+      <label for="exampleFormControlInput1">Last Name</label>
+      <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Suprianto" [(ngModel)]="lastName">
+    </div>
+    <div class="form-group col-6 my-2">
+      <label for="exampleFormControlInput1">Contact Number</label>
+      <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Suprianto" [(ngModel)]="contact">
+    </div>
+    <div class="form-group col-6 my-2">
+      <label for="exampleFormControlInput1">E-mail</label>
+      <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Suprianto" [(ngModel)]="email">
+    </div>
+    <div class="form-group col-6 my-2">
+      <label>BPJS</label>
+      <select class="form-control form-control-lg" [(ngModel)]="isBpjs">
+        <option disabled selected value>-- Choose Yes/No --</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+    <div class="form-group col-6 my-2">
+      <label>Reference</label>
+      <select class="form-control form-control-lg" [(ngModel)]="reference">
+        <option disabled selected value>-- Choose Specialist Doctor --</option>
+        <option *ngFor="let reference of references" [ngValue]="reference.id">{{reference.doctor}}</option>
+      </select>
+    </div>
+    <button class="btn-lg btn-secondary col-4 my-3 mx-auto" (click)="submit()">Submit</button>
+  </div>
+</div>

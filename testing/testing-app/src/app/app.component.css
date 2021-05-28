@@ -1,0 +1,29 @@
+nav {
+  background-color: grey;
+  height: 8vh;
+  position: sticky;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.anchor {
+  height: 8vh;
+  padding: 13px;
+}
+
+.anchor-active {
+  border-bottom: 4px solid black !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

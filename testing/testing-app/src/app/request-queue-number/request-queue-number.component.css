@@ -1,0 +1,22 @@
+.queue {
+  height: 100vh;
+}
+
+hr {
+  border: 3px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h2, h4 {
+  font-weight: bold;
+}

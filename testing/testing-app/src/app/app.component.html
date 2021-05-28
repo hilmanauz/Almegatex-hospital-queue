@@ -1,0 +1,10 @@
+<nav  *ngIf="isNavbar">
+  <div class="row">
+    <div class="col-6 content">
+      <a class="anchor" [routerLink]="['/']" routerLinkActive="anchor-active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a class="anchor" [routerLink]="['/input-visitor-details']" routerLinkActive="anchor-active">Input Customer</a>
+      <a class="anchor" [routerLink]="['/visitor-list']" routerLinkActive="anchor-active">Customer List</a>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
